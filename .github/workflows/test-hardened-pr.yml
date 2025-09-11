@@ -7,6 +7,7 @@ on:
         description: "PR number to simulate (for logs only)"
         required: false
         default: "123"
+  pull_request: {}
 
 permissions:
   contents: read
